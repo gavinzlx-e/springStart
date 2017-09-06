@@ -1,8 +1,5 @@
-package hello;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -11,7 +8,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by @author linxin on 05/09/2017.  <br>
  */
-@Service
 public class PageIndexTest {
     Logger logger= LoggerFactory.getLogger(PageIndexTest.class);
 
