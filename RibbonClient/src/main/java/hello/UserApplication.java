@@ -32,6 +32,10 @@ public class UserApplication {
 
     @Autowired
     RestTemplate restTemplate;
+    //makes an HTTP GET request to the Say Hello service’s URL as we provide it and gives us the result as a String.
+    // (For more information on using Spring to consume a RESTful service,
+    // see the Consuming a RESTful Web Service guide.)
+
 
     private static Logger log = LoggerFactory.getLogger(UserApplication.class);
 

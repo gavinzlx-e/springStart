@@ -6,6 +6,7 @@ Failed to read candidate component class: URL [jar:file:/Users/ericens/.m2/repos
 
  */
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,8 +24,14 @@ public class Application {
         return "Hello World!";
     }
 
+    @Autowired
+    static PageIndexTest pageIndexTest;
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+
+
     }
+
 
 }

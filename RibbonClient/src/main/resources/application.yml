@@ -11,3 +11,7 @@ say-hello:
       enabled: false
     listOfServers: localhost:8801,localhost:8802,localhost:8803
     ServerListRefreshInterval: 2000
+
+#This configures properties on a Ribbon client.
+#Spring Cloud Netflix creates an ApplicationContext for each Ribbon client name in our application.
+#This is used to give the client a set of beans for instances of Ribbon components
