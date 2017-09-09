@@ -28,7 +28,6 @@ public class PageIndexTest {
         public MyTask(AtomicInteger pageIndex){
             this.pageIndex=pageIndex;
         }
-        @Override
         public void run() {
             while(true){
                 int index=pageIndex.getAndIncrement();
