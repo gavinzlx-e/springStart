@@ -14,6 +14,7 @@
 
 	<dependencies>
 		<!--zlx  配置中心 config server-->
+		<!--http://cloud.spring.io/spring-cloud-static/spring-cloud-config/1.2.3.RELEASE/#_spring_cloud_config_client-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
