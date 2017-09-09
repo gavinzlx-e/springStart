@@ -37,7 +37,7 @@
 				<scope>import</scope>
 			</dependency>
 
-			<!--zlx spring boot启动-->
+			<!--zlx spring boot启动 import 方式-->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-parent</artifactId>

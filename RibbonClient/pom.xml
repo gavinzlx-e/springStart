@@ -8,6 +8,7 @@
     <artifactId>RibbonClient</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--zlx 继承方式-->
 
     <parent>
         <groupId>org.springframework.boot</groupId>
