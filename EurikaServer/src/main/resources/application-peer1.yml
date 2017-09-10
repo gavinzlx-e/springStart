@@ -1,0 +1,17 @@
+# 集群模式
+
+spring:
+  application:
+    name: registry
+
+server:
+  port: 8886
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8887/eureka/
+
+# 运行 java -jar target/EurikaServer-1.0-SNAPSHOT.jar --spring.profiles.active=peer1
