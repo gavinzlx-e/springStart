@@ -1,0 +1,27 @@
+#手动指定启动端口
+#server.port=8083
+
+#让tomcat 采用随机端口，或者server.port=0 也可以
+server:
+  port: ${random.int[10000,20000]}
+
+
+spring:
+  application:
+    name: yywap
+  cloud:
+    config:
+      failFast: true
+    retry:
+      max-attempts: 5
+
+#zlx 注册到 服务治理中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8887/eureka/
+  instance:
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+
+
+
