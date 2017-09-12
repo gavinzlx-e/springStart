@@ -38,8 +38,12 @@ public class PageIndexTest {
 
 
     public static  void main(String args[]){
+        String card="1234567890";
+
+        System.out.println( card.substring(card.length()-4,card.length()));
+
         PageIndexTest x=new PageIndexTest();
-        x.testThreads();
+//        x.testThreads();
     }
 
 }

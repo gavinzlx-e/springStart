@@ -15,7 +15,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Camden.BUILD-SNAPSHOT</version>
+                <version>Camden.SR5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -23,7 +23,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-parent</artifactId>
-                <version>1.5.1.RELEASE</version>
+                <version>1.5.6.RELEASE</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -70,6 +70,18 @@
             <artifactId>spring-retry</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.1.41</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.yyfq</groupId>
+            <artifactId>yyfq-wap-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
 
 
     </dependencies>
